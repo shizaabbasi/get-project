@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+    rel="stylesheet" />
+
+    <style>
+        .container {
+  position: relative;
+}
+
+.container-fluid::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('backdrop.jpg') no-repeat center center ;
+  background-size: cover;
+  opacity: 0.5; /* Adjust the opacity as needed */
+  z-index: -1; /* Ensure the pseudo-element is behind the content */
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container navigation pt-3">
+        <div class="row">
+            <div class="col-6 d-flex justify-content-start align-items-center">
+                <i class="fa fa-spinner fa-spin fa-3x fa-fw text-danger pb-3"></i>
+                <h5 class="d-inline pl-2 text-black">Pakwaan</h5>
+                </div>
+                <div class="col-6 pt-2">
+                    <div class="row text-center p-0 d-flex justify-content-end align-items-center">
+                        <div class="col-3">
+                            <a href="m.html" class="text-danger navigation-link">Menu</a>
+                        </div>
+<div class="col-3">
+    <a href="p.html" class="text-primary navigation-link">Portfolio</a>
+</div>
+<div class="col-3">
+    <a href="t.html" class="text-secondary navigation-link">Takeout</a>
+</div>
+<div class="col-3">
+    <a href="a.html" class="text-success navigation-link">About us</a>
+</div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-outline-warning">Click on the options to know more.</button>
+    <div class="container-fluid">
+        <div class="content">
+    <div class="col-6 pl-5 pt-5 pb-5 text-dark">
+        <h3 class="text-primary">Pakwaan</h3>
+        <h1 class="m-heading">A little bit about us</h1>
+        <p>
+            <b class="text-primary">Pakwaan</b> is on  a mission to inspire cooks to<b class="text-primary"> fall in love with cooking</b>. Cooking helps develop a great sense of taste and it is a type of art everybody should learn. Cooking is the skill everybody should have. They will be <b class="text-primary">creators of the future</b>.
+        </p>
+        <br />
+        <p>In today’s age, <b class="text-primary">cooking </b>has become an essential skill. We are looking for a skilled Cookto prepare delicious meals according to menu. You will cook dishes that will delight our customers with their taste and timely delivery. An excellent cook must be able to follow instructions in cooking and delivering well-prepared meals. 
+            <b class="text-primary">Holistic development </b> means evolving cognitive, physical, and social skills of a child to prepare them better for the interactions with the world. Cooking as an activity not only involves mental development but also focuses on social understanding.
+          </p>
+       <button class="btn btn-outline-warning">Learn more</button>
+    </div>
+    <p><h4>Address</h4>
+        18 Tank House Lane<br>
+        Toronto, Ontario M5A 3C4<br>
+        <h4>Contact no </h4>
+        +1 (416) 203-2121<br>
+        <h4>Today's hours:</h4>
+        11:00 AM - 10:00 PM</p>
+    </div>
+      </div>
+</body>
+</html>
